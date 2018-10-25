@@ -1,6 +1,6 @@
 # gotapp
 
-A new Flutter project.
+Game of thrones one of the greatest TV series of all time flutter app, displays some epic scenes in the series with exact season and episode  
 
 ## Getting Started
 
