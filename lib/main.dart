@@ -58,7 +58,8 @@ class HomePageState extends State<HomePage> {
           ? Center(
               child: CircularProgressIndicator(),
             )
-          : Card(
+          : ListView(children: <Widget>[
+            Card(
               child: Padding(
                 padding: const EdgeInsets.all(18.0),
                 child: Column(
@@ -119,7 +120,8 @@ class HomePageState extends State<HomePage> {
                   ],
                 ),
               ),
-            ),
+            )
+          ],),
       floatingActionButton: FloatingActionButton(
         onPressed: fetchEpisodes,
         backgroundColor: Colors.red,
